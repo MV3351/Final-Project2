@@ -9,7 +9,7 @@ body {
         width: 90vw;
         padding-left: 5%;
         padding-right: 5%;
-        background-image: url(/img/img.jpg);
+        background-image: url(/img/two.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body {
         height: 48vh;
         width: 80vw;
         padding-top: 93px;
-        background-image: url(/img/img.jpg);
+        background-image: url(/img/two.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -34,7 +34,7 @@ body {
     }
     #injumbo:hover {
         
-        background-image: url(/img/img.jpg);
+        background-image: url(/img/two.png);
         opacity: .9;
     }
     .text {
@@ -62,7 +62,7 @@ body {
         height: 100vh;
         width: 100%;
         margin: 0;
-        background-image: url(/img/img.jpg);
+        background-image: url(/img/two.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: repeat;
@@ -80,6 +80,15 @@ body {
     #florawrap {
         height: 120vh;
     }
+    #imgflorafelt {
+        background-image: url(/img/four.png); 
+        height: 115vh;
+         width: 100%; 
+         background-repeat: no-repeat; 
+         background-position: bottom; 
+         background-attachment: fixed; 
+         background-size: 100% 1;
+    }
     #Florafelt-link {
         border: solid;
         height: 100vh;
@@ -87,13 +96,23 @@ body {
         padding-bottom: 9%;
     }
     #sidebar {
-        background-image: url(/img/greenhouse-2139526_1920.jpg); 
+        background-image: url(/img/three.png); 
         height: 100vh; 
         width: 100%; 
         background-repeat: no-repeat; 
         background-position: center; 
         background-attachment: fixed; 
         background-size: 100% 100%;
+    }
+    #sidebarv {
+        background-image: url(/img/one.png);
+        height: 61vh; 
+        width: 100%; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-attachment: fixed; 
+        background-size: 100% 100%; 
+        margin-top: 13%;
     }
 /* OUR VISION PAGE */
     #wrapperv {
