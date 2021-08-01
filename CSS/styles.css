@@ -78,21 +78,23 @@ body {
     }
    
     #florawrap {
-        height: 120vh;
+        height: 100vh;
+        bottom: 20;
     }
     #imgflorafelt {
-       background-image: url(/img/four.png); 
-        height: 115vh;
-         width: 100%; 
-         background-repeat: no-repeat; 
-         background-position: bottom; 
-         background-attachment: fixed; 
-         background-size: 100% 1;
+        /* border: solid; */
+        background-image: url(/img/four.png); 
+        height: 100vh;
+        width: 100%; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-attachment: relative; 
+        background-size: 100% 1;
     }
     #Florafelt-link {
-        border: solid;
+        /* border: solid; */
         height: 100vh;
-        padding-top: 147%;
+        padding-top: 126%;
         padding-bottom: 9%;
     }
     #sidebar {
@@ -106,7 +108,7 @@ body {
     }
     #sidebarv {
         background-image: url(/img/one.png);
-        height: 61vh; 
+        height: 40vh; 
         width: 100%; 
         background-repeat: no-repeat; 
         background-position: center; 
@@ -121,7 +123,7 @@ body {
     }
     #visionimg {
         background-image: url(/img/one.png);
-        height: 120vh; 
+        height: 110vh; 
         background-repeat: no-repeat; 
         background-position: center; 
         background-attachment: fixed; 
@@ -136,6 +138,7 @@ body {
     }
    #carouselExampleCaptions {
        width: 70%;
+       box-shadow: 20px 20px 60px black;
    }
     #slide1 {
         height: 70vh;
@@ -158,6 +161,14 @@ body {
         width: 50%;
     }
 /* CONTACT FORM */
+#vheader {
+    margin-top: 4%;
+    height: 12vh;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
