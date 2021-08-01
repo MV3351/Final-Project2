@@ -7,13 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fontawesome.com/v4.7/icon/twitter">
-    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
-    <link rel="stylesheet" href="https://fontawesome.com/v4.7/icon/twitter">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b74243373f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css">
     <title>YESTERDAY</title>
   </head>
@@ -61,10 +56,7 @@
                 Volunteer
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Children</a>
-              <a class="dropdown-item" href="#">Adults</a>
-              <a class="dropdown-item" href="#">Senior</a>
-            </div>
+              <a class="dropdown-item" href="#Contact">Contact Us</a>
           </li> 
         </ul>
       </div>
@@ -119,10 +111,10 @@
         </section>
       </div>
     <!--OUR VISION PAGE-->
-      <div class="wrapper" id="wrapperv">
+      <div class="wrapper px-1" id="wrapperv">
         <section id="Our Vision">
           <div id="Our Vision">
-            <div style="background-image: url(https://ecowarriorprincess.net/wp-content/uploads/2017/11/EWP_A-Beginners-Guide-to-Vertical-Farming.jpg); height: 120vh; width: 94%; background-repeat: no-repeat; background-position: center; background-attachment: fixed; background-size: 100% 100%; margin-left: 3%; margin-right: 3%;">
+            <div id="visionimg">
               <div class="wrapper" id="carouselwrap">
                 <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
                   <ol class="carousel-indicators">
@@ -182,36 +174,55 @@
         </section>  
       </div>
     <!--CONTACT FORM-->
-      <div class="container">
-        <form action="action_page.php">
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your First Name">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
-      
-          <label for="country">Country</label>
-          <select id="country" name="country">
-             <option value="United States">United States</option>
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
+      <div class="container mt-5">
+        <div id="Contact">
+          <form action="action_page.php">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your First Name">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+            
+            <label for="age">How old are you</label>
+            <select id="age" name="age">
+              <option value="Your Age">Age</option>
+              <option value="under 18">17 and younger</option>
+              <option value="Over 18">18 and older</option>
+              <option value="over 65">65 and older</option>
+            </select>
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" placeholder="Street Address">
+
+            <label for="address">Phone Number</label>
+            <input type="text" id="phonen" name="phonen" placeholder="Phone Number">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="United States">United States</option>
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+            </select>
+        
+            <label for="email">Email</label>
+            <input type="text" id="subject" name="subject" placeholder="Email Address">
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
       </div>
     <!--FOOTER SECTION-->
     <footer>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-4">
-            <p>Follow us</p>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
+      <div class="container-fluid" style="height: 37vh;" id="footcont">
+        <div class="row d-flex justify-content-around">
+          <div class="col-4 text-center">
+            <i class="fab fa-facebook fa-3x"></i>
+            <i class="fab fa-twitter fa-3x"></i>
+            <i class="fab fa-instagram-square fa-3x"></i>
+            <i class="fab fa-snapchat-ghost fa-3x"></i>
+            <p class="pt-5">@mjg</p>
           </div>
         </div>
       </div>
