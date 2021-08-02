@@ -265,12 +265,12 @@ input[type=text], select, textarea {
            background: none;
         }
         @media (max-width: 410px) {
-        .bigtext {
+            .bigtext {
             font-size: 30px;
-        }
-        .smalltext {
+            }
+            .smalltext {
             font-size: 20px;
-        }
+            }
         }
     }
 
