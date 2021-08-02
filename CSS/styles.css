@@ -33,7 +33,6 @@ body {
         left: 10%;
     }
     #injumbo:hover {
-        
         background-image: url(/img/two.png);
         opacity: .9;
     }
@@ -74,92 +73,105 @@ body {
     }
 /* ABOUT US PAGE */
     #aboutinfo {
+        height: 31vh;
         width: 40vw;
+        padding-top: 40px;
     }
-   
+    #aboutrow {
+        background-color: white; 
+        height: 110vh; 
+        width: 40vw;
+        margin-left: 500px;
+    }
+    #bkimg {
+        background-image: url(/img/three.png);
+        height: 110vh; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-attachment: fixed; 
+        background-size: 100% 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #carouselwrap {
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+    }
+    #carouselExampleCaptions {
+        height: 45vh;
+        width: 100%;
+        box-shadow: 10px 10px 30px black;
+    }
+    #slide1 {
+        height: 45vh;
+        width: 50%;
+    }
+    #slide2 {
+        height: 45vh;
+        width: 50%;
+    }
+    #slide3 {
+        height: 45vh;
+        width: 50%;
+    }
+    #slide4 {
+        height: 45vh;
+        width: 50%;
+    }
+    #slide5 {
+        height: 45vh;
+        width: 50%;
+    }
+    
+/* OUR VISION PAGE */
     #florawrap {
         height: 100vh;
         bottom: 20;
+        padding-left: 14vw;
     }
     #imgflorafelt {
-        /* border: solid; */
         background-image: url(/img/four.png); 
         height: 100vh;
-        width: 100%; 
+        width: 40vw; 
         background-repeat: no-repeat; 
         background-position: center; 
         background-attachment: relative; 
         background-size: 100% 1;
     }
     #Florafelt-link {
-        /* border: solid; */
         height: 100vh;
-        padding-top: 126%;
-        padding-bottom: 9%;
+        padding-top: 900px;
     }
-    #sidebar {
-        background-image: url(/img/three.png); 
-        height: 100vh; 
-        width: 100%; 
-        background-repeat: no-repeat; 
-        background-position: center; 
-        background-attachment: fixed; 
-        background-size: 100% 100%;
-    }
-    #sidebarv {
+    #visionbkimg {
         background-image: url(/img/one.png);
-        height: 40vh; 
-        width: 100%; 
+        height: 220vh; 
         background-repeat: no-repeat; 
         background-position: center; 
         background-attachment: fixed; 
         background-size: 100% 100%; 
-        margin-top: 13%;
+        padding-left: 215px;
+        margin-left: 67px; 
+        margin-right: 67px;
+        margin-top: 50px;
     }
-/* OUR VISION PAGE */
-    #wrapperv {
-       padding-top: 0%;
-       margin-top: 0%;
+    #OurVision {
+        padding-top: 100px;
+    } 
+    #vcr {
+        margin-top: 100px;
+        padding-top: 5vh;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        height: 60vh;
+        width: 70vw;
+        font-size: 20px;
     }
-    #visionimg {
-        background-image: url(/img/one.png);
-        height: 110vh; 
-        background-repeat: no-repeat; 
-        background-position: center; 
-        background-attachment: fixed; 
-        background-size: 100% 100%; 
-        margin-left: 3%; 
-        margin-right: 3%;"
+    #vc {
+        padding-top: 100px;
     }
-    #carouselwrap {
-        display: flex;
-        justify-content: center;
-        padding-top: 10%;
-    }
-   #carouselExampleCaptions {
-       width: 70%;
-       box-shadow: 20px 20px 60px black;
-   }
-    #slide1 {
-        height: 70vh;
-        width: 50%;
-    }
-    #slide2 {
-        height: 70vh;
-        width: 50%;
-    }
-    #slide3 {
-        height: 70vh;
-        width: 50%;
-    }
-    #slide4 {
-        height: 70vh;
-        width: 50%;
-    }
-    #slide5 {
-        height: 70vh;
-        width: 50%;
-    }
+ 
 /* CONTACT FORM */
 #vheader {
     margin-top: 4%;
@@ -220,45 +232,45 @@ input[type=text], select, textarea {
             font-size: 45px;
         }
         .bigtext {
-            
             font-size: 100px;
         }
         .smalltext {
             font-size: 40px;
         }
         #jumbo {
-            
             height: 65vh;
             width: 84vw;
+            left: 8%;
         }
         #injumbo {
             padding-top: 14vh;
-            left: 12%;
+            left: 15%;
             top: 25%;
             height: 45vh;
             width: 70vw;
         }
         #imgflorafelt {
             background-size: 50% 50%;
-            
         }
         #aboutinfo {
-            
             width: 45vw;
         }
         #florawrap {
             padding-top: 2vh;
-            
+        }
+        #carouselExampleCaptions {
+            width: 1000px;
         }
         #sidebar {
-           background-size: 100% 100%;
-    }
-    @media (max-width: 410px) {
+           background: none;
+        }
+        @media (max-width: 410px) {
         .bigtext {
             font-size: 30px;
         }
         .smalltext {
             font-size: 20px;
+        }
         }
     }
 
