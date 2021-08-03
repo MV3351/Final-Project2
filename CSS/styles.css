@@ -1,6 +1,12 @@
 body {
-    width: 100%;
-    padding-top: 1vh;
+    /* width: 100%;
+    padding-top: 1vh; */
+    margin: 0;
+    box-sizing: border-box;
+}
+p {
+    margin: 0;
+    padding: 0;
 }
 /* HOME PAGE */
 #jumbo {
@@ -84,6 +90,7 @@ body {
 #bkimg {
     background-image: url(../img/three.png);
     height: 110vh; 
+    width: 100vw;
     background-repeat: no-repeat; 
     background-position: center; 
     background-attachment: fixed; 
