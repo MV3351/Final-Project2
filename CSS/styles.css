@@ -36,7 +36,8 @@ p {
     position: absolute;
     top: 29vh;
     left: 10%;
-}#injumbo:hover {
+}
+#injumbo:hover {
     background-image: url(../img/two.png);
     opacity: .9;
 }
@@ -74,6 +75,14 @@ p {
 }
 .bigtext {
     font-size: 150px;
+    color: rgb(51, 255, 0); 
+    font-family: Roboto; 
+    text-shadow: 0 0 40px #050505; 
+}
+.tinytext {
+    font-weight: 500; 
+    color: black; 
+    text-shadow: 0 0 30px #fffcfc;
 }
 /* ABOUT US PAGE */
 #aboutinfo {
@@ -81,33 +90,43 @@ p {
     width: 40vw;
     padding-top: 40px;
 }
-#aboutrow {
+.aboutrow {
     background-color: white; 
     height: 110vh; 
-    width: 40vw;
-    margin-left: 500px;
+    width: 100%;
 }
-#bkimg {
+.pbox {
+    height: 55vh;
+    width: 47vw;
+    padding-top: 60px;
+    margin-left: 45px;
+    line-height: 30px;
+    overflow: auto;
+}
+.bkimg {
     background-image: url(../img/three.png);
     height: 110vh; 
-    width: 100vw;
+    width: 93vw;
     background-repeat: no-repeat; 
     background-position: center; 
     background-attachment: fixed; 
     background-size: 100% 100%;
     margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 #carouselwrap {
     display: flex;
     justify-content: center;
-    padding-top: 5%;
+    padding-top: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #carouselExampleCaptions {
     height: 45vh;
     width: 100%;
     box-shadow: 10px 10px 30px black;
+    bottom: 26vh;
 }
 #slide1 {
     height: 45vh;
@@ -131,51 +150,33 @@ p {
 }
     
 /* OUR VISION PAGE */
-#florawrap {
-    height: 100vh;
-    bottom: 20;
-    padding-left: 14vw;
-}
-#imgflorafelt {
-    background-image: url(../img/four.png); 
-    height: 100vh;
-    width: 40vw; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    background-attachment: relative; 
-    background-size: 100% 1;
-}
-#Florafelt-link {
-    height: 100vh;
-    padding-top: 900px;
-}
 #visionbkimg {
         background-image: url(../img/one.png);
-        height: 220vh; 
+        height: 130vh; 
         background-repeat: no-repeat; 
         background-position: center; 
         background-attachment: fixed; 
         background-size: 100% 100%; 
         padding-left: 215px;
-        margin-left: 67px; 
-        margin-right: 67px;
+        margin-left: 3vw; 
+        margin-right: 3vw;
         margin-top: 50px;
     }
-    #OurVision {
-        padding-top: 100px;
+    #OurVision {                
+        padding-top: 220px;        
     } 
     #vcr {
-        margin-top: 100px;
+        margin-top: 0px;
         padding-top: 5vh;
         padding-left: 4vw;
         padding-right: 4vw;
         height: 60vh;
         width: 70vw;
         font-size: 20px;
+        line-height: 35px;
+        text-indent: 3vw;
     }
-    #vc {
-        padding-top: 100px;
-    }
+   
  
 /* CONTACT FORM */
 #vheader {
@@ -218,29 +219,36 @@ input[type=text], select, textarea {
  /* FOOTER */
 #footcont {
     padding-top: 7%;
+    height: 30vh;
 }
 /* MEDIA HOME PAGE */
     @media (max-width: 1800px) {
         .bigtext {
-
-            font-size: 90px;
+            font-size: 150px;
         }
         .smalltext {
             font-size: 40px;
         }
         #jumbo {
-            height: 60vh;
+            height: 75vh;
+        }
+        #injumbo:hover .text::after {
+            font-size: 50px;
+        } 
+        #injumbo:hover .text::after {
+            font-size: 90px;
         }
     }
     @media (max-width: 1100px) {
         .tinytext {
-            font-size: 45px;
+            font-size: 50px;
+            padding-bottom: 30px;
         }
         .bigtext {
             font-size: 100px;
         }
-        .smalltext {
-            font-size: 40px;
+        #injumbo:hover .text::after {
+            font-size: 70px;
         }
         #jumbo {
             height: 65vh;
@@ -254,30 +262,215 @@ input[type=text], select, textarea {
             height: 45vh;
             width: 70vw;
         }
-        #imgflorafelt {
-            background-size: 50% 50%;
+         .bkimg {
+            background-image: none;
         }
         #aboutinfo {
-            width: 45vw;
+            width: 70vw;
         }
-        #florawrap {
-            padding-top: 2vh;
+        .aboutrow {
+           margin-right: 60px;
+        }
+        .pbox {
+            margin-left: 0;
+            width: 60vw;
+        }
+        #carouselwrap {
+            display: flex;
+            justify-content: center;
+            width: 80vw;
+            padding-top: 20%;
+            padding-left: 0px;
+            padding-right: 20px;
         }
         #carouselExampleCaptions {
-            width: 1000px;
+            height: 45vh;
+            width: 100%;
+            bottom: 20vh;
+            right: 10vw;
         }
-        #sidebar {
-           background: none;
+        #visionbkimg {
+            height: 100vh;      
+            padding-left: 75px;
+        }
+        #OurVision {
+            padding-top: 250px;
+        } 
+        #vcr {
+            margin-top: 0px;
+            padding-top: 5vh;
+            padding-left: 4vw;
+            padding-right: 4vw;
+            height: 65vh;
+            width: 80vw;
+            font-size: 20px;
+            line-height: 43px;
+            text-indent: 5vw;
+        }
+        #footcont {
+            padding-top: 22%;
         }
     }
-        @media (max-width: 410px) {
-            .bigtext {
-            font-size: 30px;
-            }
-            .smalltext {
-            font-size: 20px;
-            }
+    @media (max-width: 800px ) {
+        .parallax {
+            height: 40vh;
+            margin: 0;
         }
+        #jumbo {
+            height: 25vh;
+            width: 90vw;
+            padding-left: 5%;
+            padding-right: 5%;
+            top: 11vh;
+            left: 5%;
+        }
+        #injumbo {
+            height: 20vh;
+            padding-top: 30px;
+            width: 80vw;   
+            top: 13vh;
+            left: 10%;
+        }
+        .tinytext {
+            font-size: 20px;
+            padding-bottom: 0px;
+        }
+        .bigtext {
+            font-size: 50px;
+        }
+        #injumbo:hover .text::after {
+            font-size: 20px;
+        }
+        .bkimg {
+            background-image: none;
+            margin: 0;
+        }
+        .aboutrow { 
+            height: 120vh;
+        }
+        .pbox {
+            height: 120vh;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0px;
+            padding-right: 40px;
+            width: 80vw;
+            overflow: visible;
+        }
+        #carouselwrap {
+            display: none;
+        }
+        #OurVision {
+            padding-top: 80px;
+            margin-right: 200px;
+        } 
+        #visionbkimg {
+            background-image: none;
+            margin-left: 0vw; 
+            margin-right: 0vw;
+            padding-left: 56px;
+        }
+        #vcr {
+            margin-top: 0px;
+            padding-top: 5px;
+            padding-left: 0px;
+            padding-right: 40px;
+            height: 120vh;
+            width: 80vw;
+            font-size: 20px;
+            line-height: 30px;
+            text-indent: 5vw;
+            font-size: 16px;
+        }
+        #Contact {
+            padding-top: 150%;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        #footcont {
+            padding-top: 22%;
+        }
+}
+    @media (max-width: 420px ) {
+        .parallax {
+            height: 40vh;
+            margin: 0;
+        }
+        #jumbo {
+            height: 25vh;
+            width: 90vw;
+            padding-left: 5%;
+            padding-right: 5%;
+            top: 11vh;
+            left: 5%;
+        }
+        #injumbo {
+            height: 20vh;
+            padding-top: 30px;
+            width: 80vw;   
+            top: 13vh;
+            left: 10%;
+        }
+        .tinytext {
+            font-size: 20px;
+            padding-bottom: 0px;
+        }
+        .bigtext {
+            font-size: 42px;
+        }
+        #injumbo:hover .text::after {
+            font-size: 20px;
+        }
+        .bkimg {
+            background-image: none;
+            margin: 0;
+        }
+        .aboutrow { 
+            height: 120vh;
+        }
+        .pbox {
+            height: 120vh;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0px;
+            padding-right: 40px;
+            width: 80vw;
+            overflow: visible;
+        }
+        #carouselwrap {
+            display: none;
+        }
+        #OurVision {
+            padding-top: 80px;
+            margin-right: 200px;
+        } 
+        #visionbkimg {
+            background-image: none;
+            margin-left: 0vw; 
+            margin-right: 0vw;
+            padding-left: 56px;
+        }
+        #vcr {
+            margin-top: 0px;
+            padding-top: 5px;
+            padding-left: 0px;
+            padding-right: 40px;
+            height: 120vh;
+            width: 80vw;
+            font-size: 20px;
+            line-height: 30px;
+            text-indent: 5vw;
+            font-size: 16px;
+        }
+        #Contact {
+            padding-top: 150%;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        #footcont {
+            padding-top: 22%;
+        }
+}
 
 /* MEDIA ABOUT US PAGE */
 
