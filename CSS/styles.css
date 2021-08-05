@@ -222,254 +222,312 @@ input[type=text], select, textarea {
     height: 30vh;
 }
 /* MEDIA HOME PAGE */
-    @media (max-width: 1800px) {
-        .bigtext {
-            font-size: 150px;
-        }
-        .smalltext {
-            font-size: 40px;
-        }
-        #jumbo {
-            height: 75vh;
-        }
-        #injumbo:hover .text::after {
-            font-size: 50px;
-        } 
-        #injumbo:hover .text::after {
-            font-size: 90px;
-        }
+@media (max-width: 1800px) {
+    .bigtext {
+        font-size: 150px;
     }
-    @media (max-width: 1100px) {
-        .tinytext {
-            font-size: 50px;
-            padding-bottom: 30px;
-        }
-        .bigtext {
-            font-size: 100px;
-        }
-        #injumbo:hover .text::after {
-            font-size: 70px;
-        }
-        #jumbo {
-            height: 65vh;
-            width: 84vw;
-            left: 8%;
-        }
-        #injumbo {
-            padding-top: 14vh;
-            left: 15%;
-            top: 25%;
-            height: 45vh;
-            width: 70vw;
-        }
-         .bkimg {
-            background-image: none;
-        }
-        #aboutinfo {
-            width: 70vw;
-        }
-        .aboutrow {
-           margin-right: 60px;
-        }
-        .pbox {
-            margin-left: 0;
-            width: 60vw;
-        }
-        #carouselwrap {
-            display: flex;
-            justify-content: center;
-            width: 80vw;
-            padding-top: 20%;
-            padding-left: 0px;
-            padding-right: 20px;
-        }
-        #carouselExampleCaptions {
-            height: 45vh;
-            width: 100%;
-            bottom: 20vh;
-            right: 10vw;
-        }
-        #visionbkimg {
-            height: 100vh;      
-            padding-left: 75px;
-        }
-        #OurVision {
-            padding-top: 250px;
-        } 
-        #vcr {
-            margin-top: 0px;
-            padding-top: 5vh;
-            padding-left: 4vw;
-            padding-right: 4vw;
-            height: 65vh;
-            width: 80vw;
-            font-size: 20px;
-            line-height: 43px;
-            text-indent: 5vw;
-        }
-        #footcont {
-            padding-top: 22%;
-        }
+    .smalltext {
+        font-size: 40px;
     }
-    @media (max-width: 800px ) {
-        .parallax {
-            height: 40vh;
-            margin: 0;
-        }
-        #jumbo {
-            height: 25vh;
-            width: 90vw;
-            padding-left: 5%;
-            padding-right: 5%;
-            top: 11vh;
-            left: 5%;
-        }
-        #injumbo {
-            height: 20vh;
-            padding-top: 30px;
-            width: 80vw;   
-            top: 13vh;
-            left: 10%;
-        }
-        .tinytext {
-            font-size: 20px;
-            padding-bottom: 0px;
-        }
-        .bigtext {
-            font-size: 50px;
-        }
-        #injumbo:hover .text::after {
-            font-size: 20px;
-        }
-        .bkimg {
-            background-image: none;
-            margin: 0;
-        }
-        .aboutrow { 
-            height: 120vh;
-        }
-        .pbox {
-            height: 120vh;
-            margin-left: 0;
-            margin-right: 0;
-            padding-left: 0px;
-            padding-right: 40px;
-            width: 80vw;
-            overflow: visible;
-        }
-        #carouselwrap {
-            display: none;
-        }
-        #OurVision {
-            padding-top: 80px;
-            margin-right: 200px;
-        } 
-        #visionbkimg {
-            background-image: none;
-            margin-left: 0vw; 
-            margin-right: 0vw;
-            padding-left: 56px;
-        }
-        #vcr {
-            margin-top: 0px;
-            padding-top: 5px;
-            padding-left: 0px;
-            padding-right: 40px;
-            height: 120vh;
-            width: 80vw;
-            font-size: 20px;
-            line-height: 30px;
-            text-indent: 5vw;
-            font-size: 16px;
-        }
-        #Contact {
-            padding-top: 150%;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-        #footcont {
-            padding-top: 22%;
-        }
+    #jumbo {
+        height: 75vh;
+    }
+    #injumbo:hover .text::after {
+        font-size: 50px;
+    } 
+    #injumbo:hover .text::after {
+        font-size: 90px;
+    }
+    #aboutinfo {
+        width: 70vw;
+    }
+    .aboutrow {
+        margin-right: 60px;  
+                
+    }
+    .pbox {
+        margin-left: 5px;
+        margin-top: 25px;
+        width: 50vw;
+        height: 55vh;
+    }
+    #carouselExampleCaptions {
+        height: 45vh;
+        width: 100%;
+        bottom: 19vh;
+    }
+    #visionbkimg {        
+        padding-left: 110px;       
+    }
+    #vcr {
+        margin-top: 0px;
+        padding-top: 5px;
+        padding-left: 0px;
+        padding-right: 40px;
+        height: 60vh;
+        width: 80vw;          
+        line-height: 35px;
+        text-indent: 5vw;
+        font-size: 16px;
+    }
 }
-    @media (max-width: 420px ) {
-        .parallax {
-            height: 40vh;
-            margin: 0;
-        }
-        #jumbo {
-            height: 25vh;
-            width: 90vw;
-            padding-left: 5%;
-            padding-right: 5%;
-            top: 11vh;
-            left: 5%;
-        }
-        #injumbo {
-            height: 20vh;
-            padding-top: 30px;
-            width: 80vw;   
-            top: 13vh;
-            left: 10%;
-        }
-        .tinytext {
-            font-size: 20px;
-            padding-bottom: 0px;
-        }
-        .bigtext {
-            font-size: 42px;
-        }
-        #injumbo:hover .text::after {
-            font-size: 20px;
-        }
-        .bkimg {
-            background-image: none;
-            margin: 0;
-        }
-        .aboutrow { 
-            height: 120vh;
-        }
-        .pbox {
-            height: 120vh;
-            margin-left: 0;
-            margin-right: 0;
-            padding-left: 0px;
-            padding-right: 40px;
-            width: 80vw;
-            overflow: visible;
-        }
-        #carouselwrap {
-            display: none;
-        }
-        #OurVision {
-            padding-top: 80px;
-            margin-right: 200px;
-        } 
-        #visionbkimg {
-            background-image: none;
-            margin-left: 0vw; 
-            margin-right: 0vw;
-            padding-left: 56px;
-        }
-        #vcr {
-            margin-top: 0px;
-            padding-top: 5px;
-            padding-left: 0px;
-            padding-right: 40px;
-            height: 120vh;
-            width: 80vw;
-            font-size: 20px;
-            line-height: 30px;
-            text-indent: 5vw;
-            font-size: 16px;
-        }
-        #Contact {
-            padding-top: 150%;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-        #footcont {
-            padding-top: 22%;
-        }
+@media (max-width: 1100px) {
+    .tinytext {
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+    .bigtext {
+        font-size: 100px;
+    }
+    #injumbo:hover .text::after {
+        font-size: 70px;
+    }
+    #jumbo {
+        height: 65vh;
+        width: 84vw;
+        left: 8%;
+    }
+    #injumbo {
+        padding-top: 14vh;
+        left: 15%;
+        top: 25%;
+        height: 45vh;
+        width: 70vw;
+    }
+    .bkimg {
+        background-image: none;
+    }
+    #aboutinfo {
+        width: 70vw;
+    }
+    .aboutrow {
+        margin-right: 60px;
+    }
+    .pbox {
+        margin-left: 0;
+        width: 60vw;
+    }
+    #carouselwrap {
+        display: flex;
+        justify-content: center;
+        width: 80vw;
+        padding-top: 20%;
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+    #carouselExampleCaptions {
+        height: 45vh;
+        width: 100%;
+        bottom: 20vh;
+        right: 10vw;
+    }
+    #visionbkimg {
+        height: 100vh;      
+        padding-left: 75px;
+    }
+    #OurVision {
+        padding-top: 250px;
+    } 
+    #vcr {
+        margin-top: 0px;
+        padding-top: 5vh;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        height: 65vh;
+        width: 80vw;
+        font-size: 20px;
+        line-height: 43px;
+        text-indent: 5vw;
+    }
+    #footcont {
+        padding-top: 22%;
+    }
+}
+@media (max-width: 800px ) {
+    .parallax {
+        height: 40vh;
+        margin: 0;
+    }
+    #jumbo {
+        height: 25vh;
+        width: 90vw;
+        padding-left: 5%;
+        padding-right: 5%;
+        top: 11vh;
+        left: 5%;
+    }
+    #injumbo {
+        height: 20vh;
+        padding-top: 30px;
+        width: 80vw;   
+        top: 13vh;
+        left: 10%;
+    }
+    .tinytext {
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    .bigtext {
+        font-size: 50px;
+    }
+    #injumbo:hover .text::after {
+        font-size: 20px;
+    }
+    .bkimg {
+        background-image: none;
+        margin: 0;
+    }
+    .aboutrow { 
+        height: 120vh;
+    }
+    .pbox {
+        height: 120vh;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0px;
+        padding-right: 40px;
+        width: 80vw;
+        overflow: visible;
+    }
+    #carouselwrap {
+        display: none;
+    }
+    #OurVision {
+        padding-top: 80px;
+        margin-right: 200px;
+    } 
+    #visionbkimg {
+        background-image: none;
+        margin-left: 0vw; 
+        margin-right: 0vw;
+        padding-left: 56px;
+    }
+    #vcr {
+        margin-top: 0px;
+        padding-top: 5px;
+        padding-left: 0px;
+        padding-right: 40px;
+        height: 120vh;
+        width: 80vw;
+        font-size: 20px;
+        line-height: 30px;
+        text-indent: 5vw;
+        font-size: 16px;
+    }
+    #Contact {
+        padding-top: 150%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #footcont {
+        padding-top: 22%;
+    }
+}
+@media (max-width: 420px) {
+    .parallax {
+        height: 40vh;
+        margin: 0;
+    }
+    #jumbo {
+        height: 25vh;
+        width: 90vw;
+        padding-left: 5%;
+        padding-right: 5%;
+        top: 11vh;
+        left: 5%;
+    }
+    #injumbo {
+        height: 20vh;
+        padding-top: 30px;
+        width: 80vw;   
+        top: 13vh;
+        left: 10%;
+    }
+    .tinytext {
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    .bigtext {
+        font-size: 42px;
+    }
+    #injumbo:hover .text::after {
+        font-size: 20px;
+    }
+    .bkimg {
+        background-image: none;
+        margin: 0;
+    }
+    .aboutrow { 
+        height: 120vh;
+    }
+    .pbox {
+        height: 120vh;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0px;
+        padding-right: 40px;
+        width: 80vw;
+        overflow: visible;
+    }
+    #carouselwrap {
+        display: none;
+    }
+    #OurVision {
+        padding-top: 80px;
+        margin-right: 200px;
+    } 
+    #visionbkimg {
+        background-image: none;
+        margin-left: 0vw; 
+        margin-right: 0vw;
+        padding-left: 56px;
+    }
+    #vcr {
+        margin-top: 0px;
+        padding-top: 5px;
+        padding-left: 0px;
+        padding-right: 40px;
+        height: 120vh;
+        width: 80vw;          
+        line-height: 27px;
+        text-indent: 5vw;
+        font-size: 16px;
+    }
+    #Contact {
+        padding-top: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #footcont {
+        padding-top: 22%;
+    }
+}
+@media (max-width: 380px) {
+    #OurVision {
+        padding-top: 60px;
+    } 
+    #Contact {
+        padding-top: 120%;
+    }
+}
+@media (max-width: 375px) {
+    #OurVision {
+        padding-top: 250px;
+        margin-right: 200px;
+    } 
+    #Contact {
+        padding-top: 220%;
+    }   
+}
+@media (max-width: 360px) {
+    #OurVision {
+        padding-top: 250px;
+        margin-right: 200px;
+    } 
+    #Contact {
+        padding-top: 230%;
+    }
+   
 }
 
 /* MEDIA ABOUT US PAGE */
