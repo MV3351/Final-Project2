@@ -98,9 +98,10 @@ p {
 .pbox {
     height: 55vh;
     width: 47vw;
-    padding-top: 60px;
+    padding-top: 80px;
     margin-left: 45px;
     line-height: 30px;
+    font-size: 20px;
     overflow: auto;
 }
 .bkimg {
@@ -152,7 +153,7 @@ p {
 /* OUR VISION PAGE */
 #visionbkimg {
         background-image: url(../img/one.png);
-        height: 130vh; 
+        height: 110vh; 
         background-repeat: no-repeat; 
         background-position: center; 
         background-attachment: fixed; 
@@ -173,8 +174,9 @@ p {
         height: 60vh;
         width: 70vw;
         font-size: 20px;
-        line-height: 35px;
+        line-height: 30px;
         text-indent: 3vw;
+        overflow: auto;
     }
    
  
@@ -221,7 +223,6 @@ input[type=text], select, textarea {
     padding-top: 7%;
     height: 30vh;
 }
-/* MEDIA HOME PAGE */
 @media (max-width: 1800px) {
     .bigtext {
         font-size: 150px;
@@ -242,8 +243,7 @@ input[type=text], select, textarea {
         width: 70vw;
     }
     .aboutrow {
-        margin-right: 60px;  
-                
+        margin-right: 60px;           
     }
     .pbox {
         margin-left: 5px;
@@ -254,22 +254,51 @@ input[type=text], select, textarea {
     #carouselExampleCaptions {
         height: 45vh;
         width: 100%;
-        bottom: 19vh;
+        bottom: 13vh;
     }
     #visionbkimg {        
         padding-left: 110px;       
     }
     #vcr {
         margin-top: 0px;
-        padding-top: 5px;
+        padding-top: 90px;
         padding-left: 0px;
         padding-right: 40px;
         height: 60vh;
         width: 80vw;          
-        line-height: 35px;
+        line-height: 55px;
         text-indent: 5vw;
-        font-size: 16px;
+        font-size: 25px;
     }
+}
+@media (max-width: 1670px) {
+    #carouselExampleCaptions {
+        height: 45vh;
+        width: 100%;
+        bottom: 13vh;
+    }
+}
+@media (max-width: 1440px) {
+    #vcr {           
+        padding-left: 15px;     
+        line-height: 45px;
+        text-indent: 5vw;
+        font-size: 25px;
+    }
+}
+@media (max-width: 1300px) {
+    #visionbkimg {
+        height: 99vh;        
+    }
+    #vcr {   
+        padding-left: 15px;     
+        line-height: 45px;
+        text-indent: 5vw;
+        font-size: 20px;
+    }
+    #OurVision {
+        padding-top: 270px;
+    } 
 }
 @media (max-width: 1100px) {
     .tinytext {
@@ -420,7 +449,7 @@ input[type=text], select, textarea {
         margin-right: 10px;
     }
     #footcont {
-        padding-top: 22%;
+        padding-top: 22px;
     }
 }
 @media (max-width: 420px) {
@@ -499,7 +528,7 @@ input[type=text], select, textarea {
         margin-right: 10px;
     }
     #footcont {
-        padding-top: 22%;
+        padding-top: 82px;
     }
 }
 @media (max-width: 380px) {
@@ -507,7 +536,7 @@ input[type=text], select, textarea {
         padding-top: 60px;
     } 
     #Contact {
-        padding-top: 120%;
+        padding-top: 120px;
     }
 }
 @media (max-width: 375px) {
@@ -516,7 +545,7 @@ input[type=text], select, textarea {
         margin-right: 200px;
     } 
     #Contact {
-        padding-top: 220%;
+        padding-top: 800px;
     }   
 }
 @media (max-width: 360px) {
@@ -525,7 +554,7 @@ input[type=text], select, textarea {
         margin-right: 200px;
     } 
     #Contact {
-        padding-top: 230%;
+        padding-top: 800px;
     }
    
 }
